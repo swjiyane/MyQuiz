@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.codetribe.myquiz.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="216dp"
+        android:src="@drawable/flag2"
+        android:scaleType="centerCrop"
+        />
+
+
+        <Button
+            android:id="@+id/btnGeneral"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:onClick="startQuiz"
+            android:textColor="@android:color/white"
+            android:text="General Knowledge" />
+
+        <Button
+            android:id="@+id/btnPolitics"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:textColor="@android:color/white"
+            android:onClick="startQuiz"
+            android:text="Politics" />
+
+        <Button
+            android:id="@+id/btnSocial"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:onClick="startQuiz"
+            android:text="Social" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:padding="4dp"
+        android:text="Click Topic To Play"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+            />
+
+
+</LinearLayout>
